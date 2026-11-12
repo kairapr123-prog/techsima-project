@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="images/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div class="d-flex">
+        <div class="sidebar p-3 d-flex flex-column">
+            <h5 class="text-white fw-bold mb-0">Settings</h5>
+            <p class="text-secondary">Admin Panel</p>
+            <hr class="border-secondary my-3">
+            <ul class="nav flex-column gap-1">
+                <li><a href="dashboard.html" class="nav-link"><i class="fa fa-table-cells me-2"></i> Dashboard</a></li>
+                <li><a href="products.html" class="nav-link"><i class="fa fa-cube me-2"></i> Products</a></li>
+                <li><a href="gallery.html" class="nav-link"><i class="fa fa-images me-2"></i> Gallery</a></li>
+                <li><a href="contact1.html" class="nav-link"><i class="fa fa-envelope me-2"></i> Contact Enquiries</a>
+                </li>
+                <li><a href="enquiries.html" class="nav-link"><i class="fa fa-inbox me-2"></i> Enquiries</a></li>
+                <li><a href="settings.html" class="nav-link active"><i class="fa fa-gear me-2"></i> Settings</a></li>
+            </ul>
+            <div class="mt-auto"><a href="#" class="text-danger small text-decoration-none"><i
+                        class="fa fa-right-from-bracket me-2"></i> Logout</a></div>
+        </div>
+        <div class="main-area bg-light">
+            <div class="bg-white border-bottom p-3 d-flex justify-content-between">
+                <h6 class="fw-bold" style="color:#7a214f;">Settings</h6><span class="avatar">A</span>
+            </div>
+            <div class="p-4">
+                <h4>Website Settings</h4>
+                <div class="card border-0 shadow-sm p-4 mt-3" style="max-width:600px;">
+
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label small fw-bold">Site Title</label>
+                            <input type="text" name="site_title" class="form-control" placeholder="Enter Site Title">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label small fw-bold">Admin Email</label>
+                            <input type="email" name="admin_email" class="form-control" placeholder="Enter Admin Email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label small fw-bold">Phone</label>
+                            <input type="tel" name="phone" class="form-control" placeholder="Enter Phone Number">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label small fw-bold">Address</label>
+                            <textarea name="address" class="form-control" rows="3"
+                                placeholder="Enter Address"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn text-white w-100" style="background:#7a214f;">Save
+                            Settings</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
